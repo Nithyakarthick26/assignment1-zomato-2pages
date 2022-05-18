@@ -1,0 +1,163 @@
+body
+{
+    margin:auto
+}
+a {
+    text-decoration:none;
+}
+/*header css*/
+header
+{
+    height:60px;
+    background-color:#b27a44;
+    
+    width:100%   ;
+    
+}
+#icon
+{
+    display: inline-block;
+    color:rgb(148, 45, 13) ;
+    margin-left: 1%;
+    text-align: center;
+    
+    margin-top:-8px
+}
+.login{
+    
+    font-size: 20px;
+    margin: 15px 20px 2px 2px ;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+    float:right
+}
+
+.account{
+    font-size: 20px;
+    margin: 15px 20px 2px 2px ;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+    float:right
+}
+
+/*Search Css*/
+.headingText{
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#content{
+    height:500px;
+    width: 80%;
+    display:inline-block;
+    margin-left: 10%;
+}
+#imgDiv{
+    height:300px;
+    width:40%;
+    float:left;
+    border:8px groove gray
+}
+#contentDiv{
+    height:300px;
+    width:50%;
+    float:left;
+    margin-left: 3%;
+    margin-top: -2%;
+}
+#imgDiv > img {
+    height:300px;
+    width:100%;
+}
+.feature_container{
+    width:100%;
+    display: inline-block;
+}
+.feature{
+    float:left;
+    margin-left:5%
+}
+.fetIcon{
+    height:70px;
+    width:100px;
+    margin-left:2%
+}
+.removeMargin{
+    margin-left:-1% 
+}
+
+h2{
+    color:green;
+    font-size:30px
+}
+
+.myButton{
+    height:50px;
+    width:200px;
+    font-size:20px ;
+    background-color: rgb(108, 108, 101);
+    color:white
+}
+
+.checked{
+    color:green
+}
+
+
+
+/*footer css*/
+footer
+{
+    height:130px;
+    width:100%;
+    background-color:#b27a44;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#footerText{
+    text-align: center;
+    font-size:18px;
+    margin-top:20px
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border:none 
+} 
+@media screen and (max-width:1600px){
+    
+}
+@media screen and (max-width:1400px){
+    
+}
+@media screen and (max-width:1200px){
+    
+    .tileContainer {
+        width: 45%;
+    }
+    #heading {
+        font-size: 45px;
+        margin-left: -9%;
+    }
+}
+@media screen and (max-width:1000px){
+    
+}
+@media screen and (max-width:800px){
+    
+    .tileContainer {
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    
+}

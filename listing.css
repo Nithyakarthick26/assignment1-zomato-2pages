@@ -1,0 +1,432 @@
+body
+{
+    margin:auto;
+    
+}
+a {
+    text-decoration:none;
+}
+/*header css*/
+header
+{
+    height:60px;
+    background-color:#b27a44;
+    position:sticky;
+    width:100%   ;
+    
+}
+#icon
+{
+    display: inline-block;
+    color:rgb(121, 28, 5) ;
+    margin-left: 1%;
+    text-align: center;
+    
+    margin-top:-8px
+}
+.login{
+    
+    font-size: 20px;
+    margin: 15px 20px 2px 2px ;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+    float:right
+}
+
+.account{
+    font-size: 20px;
+    margin: 15px 20px 2px 2px ;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+    float:right
+}
+
+.headingtext
+{
+    margin-top:3px;
+    font-size: 30px;
+    font-weight:bold;
+    color: #b27a44;
+    text-align: center;
+    
+}
+#content
+{ 
+    
+    margin-top:-3px;
+    width:100%;
+}
+.filterdiv
+{
+    
+    width: 250px;
+    text-align:left;
+    height:580px;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 20px rgb(128, 123, 123);
+    /*border: 2px solid #b27a44;*/
+    margin-right: 10px;
+    margin-left:20%;
+    margin-top:-7px;
+    font-size: 20px;
+    font-weight:bold;
+    float:left;
+    
+}
+.dropdown{
+    height:20px;
+    width: 120%;    
+    margin-top:5%;
+    text-align: left  ;
+    margin-left:10%
+}
+
+select{
+    height:25px;
+    width:60%;
+    font-size:15px;
+    text-align: center;
+    font-weight:bold;
+    line-height:2%;
+    margin-left:-10%;
+    color:#4a64d4
+    
+}
+.filter{
+    text-align:left;
+    margin-left:10%;
+    line-height:30px;
+    font-weight:bold;
+    color:#4458b2;
+    font-size: 22px;
+    height:70px;
+    width:90%;
+    
+
+
+}
+.cuisinefilter
+{
+    line-height: 3%;
+    font-size: 18px;
+    margin-left:12px;
+    margin-top:5px;
+    text-align: left;
+    font-weight: bold;
+    color:#4458b2;
+    
+    
+}
+.box
+{
+    height:160px;
+    width:70%;
+    margin-left:10px;
+    color:#4a64d4;
+    text-align:left;
+    line-height: 2%;
+    font-size: 15px;
+    
+}
+.boxheight
+{
+    height:150px;   
+}
+.costfilter
+{
+    line-height: 3%;
+    font-size: 18px;
+    margin-left:10px;
+    margin-top:7px;
+    font-weight: bold;
+    color:#4a64d4;
+    text-align:left;
+    
+}
+.sort
+{
+    line-height: 30%;
+    font-size: 18px;
+    margin-left:15px;
+    margin-top:7px;
+    font-weight: bold;
+    color:#4a64d4;
+    text-align: left;
+}
+
+.contentdiv{
+    font-size: 18px;
+  width:50%;  
+display:inline-block;
+  
+  margin-left:2%;
+  margin-bottom: 20px;
+  margin-top:-9px;
+  
+}
+.container
+{
+    width:80%;
+    height:250px;
+    /*border: 2px solid #b27a44;*/
+    margin-left:2%;
+    margin-bottom: 20px;
+    margin-top: 3px;
+    box-shadow: 2px 5px 20px rgb(128, 123, 123);
+    display:inline-block;
+}
+.container:hover
+{
+    transform: scale(1.1);
+}
+.image1{
+    width:150px;
+  height: 110px;
+  border-radius: 10px;
+  margin-right: 20px;
+    margin-left: 10px;
+    margin-top:20px;
+  float:left
+}
+.image1>img
+{
+    width:100%;
+    height:100%
+    
+}
+.about
+{
+   display:inline-block; 
+    width:60%;
+    height: 110px;
+    /*margin-right: 5px;
+    margin-left: 5px;*/
+    margin-top:10px;
+    
+    
+    
+}
+.heading
+{
+    margin-top:10px;
+    font-weight:bold;
+    font-size:20px;
+    color:rgb(12, 12, 14);
+    
+
+}
+.address
+{
+    margin-top:15px;
+    font-weight:bold;
+    font-size:17px;
+    color:#4a64d4;
+    
+}
+.contents
+{
+     
+    
+     height:80px;
+     width:90%;
+     margin-left:-32%;
+     margin-top:30px;
+     display:inline-block;
+     
+     
+}
+
+
+.cuisines
+{
+    font-weight:bold;
+    font-size:15px;
+    height:70px;
+     width:150px;
+     
+     color:#4a64d4;
+     float:left;
+     
+}
+.price
+{
+    font-weight:bold;
+    font-size:15px;
+    height:70px;
+     width:25%;
+     float:left;
+     margin-left: 13px;
+     color:#4a64d4;
+     
+}
+.proceed
+{
+    font-weight:bold;
+    font-size:18px;
+    height:22px;
+     width:20%;
+     float:left;
+     margin-top:45px;
+     margin-left: 80px;
+     color:#0b0e0f;
+     
+     background-color:rgb(104, 192, 77)
+}
+
+
+/*footer css*/
+footer
+{
+    height:130px;
+    width:100%;
+    background-color:#b48354;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+    
+    
+}
+#footerText{
+    text-align: center;
+    font-size:18px;
+    margin-top:20px
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border:none 
+} 
+  
+@media screen and (max-width:1350px)
+{
+    
+}
+@media screen and (max-width:1300px){
+    
+    
+}
+@media screen and (max-width:1200px){
+   
+         .container
+{
+    width:100%;
+    height:300px;
+    
+}
+
+    }
+
+@media screen and (max-width:1100px){
+    
+    .container
+{
+    width:120%;
+    height:350px;
+    
+}
+
+.contents
+{
+     
+    
+     height:80px;
+     width:50%;
+     margin-left:-10px;
+}
+    
+    
+}
+@media screen and (max-width:1000px){
+    
+    
+    
+}
+@media screen and (max-width:800px){
+    
+    .container
+{
+    width:180%;
+    height:370px;
+    
+}
+
+}
+@media screen and (max-width:600px){
+    
+    container
+{
+    width:250%;
+    height:460px;
+    
+}
+    
+}
+@media screen and (max-width:550px){
+    
+    container
+{
+    width:300%;
+    height:500px;
+    
+}
+.contents
+{
+     
+    
+     height:100px;
+     width:80%;
+     margin-left:-5px;
+}
+    
+}
+@media screen and (max-width:500px){
+    
+    container
+{
+    width:300%;
+    height:500px;
+    
+}
+
+.contents
+{
+     
+    
+     height:100px;
+     width:90%;
+     margin-left:-5px;
+}
+    
+}
+@media screen and (max-width:400px){
+    
+    container
+{
+    width:500%;
+    height:600px;
+    
+}
+.contents
+{
+     
+    
+     height:160px;
+     width:200%;
+     margin-left:-5px;
+}
+.proceed
+{
+    
+     width:50%;
+     
+}
+}

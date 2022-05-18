@@ -1,0 +1,304 @@
+body
+{
+    margin:auto
+}
+a {
+    text-decoration:none;
+}
+/*header css*/
+/*header
+{
+    height:60px;
+    background-color:#b27a44;
+
+    width:100%   ;
+    
+}*/
+
+.button
+{
+    color:rgb(54, 150, 62);
+}
+.navbar-brand
+{
+    color:rgb(215, 250, 218);
+    font-size:28px;
+    font-style:bold;
+    font-weight: bold;
+}
+.navbar
+{
+    background-color:#b27a44;
+}
+.icon-bar
+{
+    color:rgb(83, 35, 35) !important;
+    font-size:28px;
+}
+.navbar-right
+{
+    color:white;
+    font-size:25px;
+    color:rgb(83, 35, 35) !important;
+}
+.nav
+{
+    color:rgb(143, 25, 25);
+    font-size:25px
+}
+#navbar-collapse
+{
+    color:rgb(143, 25, 25);
+    font-size:25px
+}
+.glyphicon
+{
+    color:white;
+    font-size:25px
+}
+.glyphicon-log-in
+{
+    color:white;
+    font-size:20px;
+}
+.glyphicon-user
+{
+    font-size:20px;
+}
+/*#icon
+{
+    display: inline-block;
+    color:rgb(148, 45, 13) ;
+    margin-left: 1%;
+    text-align: center;
+    margin-top:-8px
+    
+}
+.login{
+    
+    font-size: 20px;
+    margin: 15px 20px 2px 2px ;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+    float:right
+}
+
+.account{
+    font-size: 20px;
+    margin: 15px 20px 2px 2px ;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    padding: 2px 2px 2px 10px;
+    float:right
+}
+*/
+
+
+
+/* Search css*/
+#search{
+    height:450px;
+    width:100%;
+    background-image:url('mm.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 450px;
+    
+    
+  }
+
+  #container
+  {
+    height:400px;
+    width:60%;
+    margin-left:25%;
+    margin-top:2%;
+    position:absolute
+}
+
+#logo
+{
+    height:40px;
+    width:210px;
+    position:absolute;
+    margin-left: 30%;
+    background-color:white;
+    font-weight:bold;
+    margin-top:5%
+   
+
+}
+#logo>span
+{
+    margin-left: 5%;
+    margin-top:3%;
+    position:absolute;
+    font-size:20px
+}
+
+#heading{
+    font-size:40px;
+    font-weight:bold;
+    color: white;
+    margin-left: -10%;
+    margin-top:15%;
+    text-align: center;
+}
+.dropdown{
+    height:30px;
+    width:80%;
+    position:absolute;
+    margin-top:5%;
+  
+   margin-left:8%
+    
+    
+}
+
+select{
+    height:50px;
+    width:40%;
+    font-size:14px;
+    text-align: center;
+    font-weight:bold
+    
+}
+.restSelect{
+    width:51%;
+}
+
+/*Quick Search css*/
+#quicksearch
+{
+    display:inline-block;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:2%;
+   
+}
+#quickheading
+{
+font-size:25px;
+display:block;
+font-weight: bold;
+font-style:times new roman;
+color:#b27a44;
+margin-left:20px
+
+}
+
+#quicksubheading
+{
+    font-size:20px;
+    display:block;
+    font-weight: bold;
+    font-style:times new roman;
+    line-height:30px;
+    color:darkgray;
+    margin-left:20px
+}
+
+.tilecontainer
+{
+    height:200px;
+    width:42%;
+    /*border:2px solid#baaf41 ;*/
+    float:left;
+    box-shadow: 20px 20px 10px gray;
+    margin-left:20px;
+    margin-top:20px;
+    display:block
+    
+
+}
+.tilecomponent1
+{
+    height:200px;
+    width:60%;
+    float:left;
+    
+}
+.tilecomponent1>img
+{
+    width:100%;
+    height: 200px;
+    
+}
+.tilecomponent2
+{
+    width:30%;
+    float:left;
+    margin-left:5%;
+    margin-top:5%;
+    
+}
+.componentheading >a
+{
+    font-weight:bold;
+    color:#b27a44;
+    font-size:20px
+}
+.componentsubheading
+{
+    color:gray;
+    font-size:20px
+}
+
+
+/*footer css*/
+footer
+{
+    height:130px;
+    width:100%;
+    background-color:#b27a44;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#footerText{
+    text-align: center;
+    font-size:18px;
+    margin-top:20px
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border:none 
+} 
+
+  
+@media screen and (max-width:1600px){
+    
+}
+@media screen and (max-width:1400px){
+    
+}
+@media screen and (max-width:1200px){
+    
+    .tileContainer {
+        width: 45%;
+    }
+    #heading {
+        font-size: 45px;
+        margin-left: -9%;
+    }
+}
+@media screen and (max-width:1000px){
+    
+}
+@media screen and (max-width:800px){
+    
+    .tileContainer {
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    
+}
